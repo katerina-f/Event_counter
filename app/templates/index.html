@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+{% if form %}
+    <h1>Create your event</h1>
+    {{ wtf.quick_form(form) }}
+{% else %}
+    <h1>The cost of your meeting is</h1>
+    {{ cost }} rubles
+{% endif %}
+{% endblock %}
