@@ -29,7 +29,7 @@ jsmin==2.2.2
 lazy-object-proxy==1.4.2
 lockfile==0.12.2
 loguru==0.3.2
-Mako==1.1.0
+Mako==1.2.2
 MarkupSafe==1.1.1
 mccabe==0.6.1
 pika==1.1.0
